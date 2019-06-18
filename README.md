@@ -1,10 +1,3 @@
-    
-erick: RtE2ckBkGMmfyW34
-
-MongoDB URL:
-mongodb+srv://erick:RtE2ckBkGMmfyW34@cafe-ybl5b.mongodb.net/cafe
-
-
 
 Definir los alcances de nuestro RESTServer
 CRUD
