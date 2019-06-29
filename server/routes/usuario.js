@@ -46,7 +46,8 @@ app.post("/usuario", [verificaToken, verificaAdmin_Role], function(req, res) {
     nombre: body.nombre,
     email: body.email,
     password: bcrypt.hashSync(body.password, 10), // decrypt
-    rol: body.rol
+    rol: body.rol,
+    img: body.img
   });
 
   usuario.save((err, usuarioDB) => {
